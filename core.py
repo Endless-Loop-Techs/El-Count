@@ -15,7 +15,6 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 from kivy.uix.popup import Popup
-from kivy.uix.dropdown import DropDown
 from kivy.uix.togglebutton import ToggleButton
 
 from kivy.metrics import dp

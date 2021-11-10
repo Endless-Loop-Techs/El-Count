@@ -10,7 +10,6 @@ from random import random
 from math import atan2, sqrt, pow, degrees, sin, cos, radians
 
 
-
 class PieChart(GridLayout):
     def __init__(self, data, position, size, legend_enable=True, **kwargs):
         super(PieChart, self).__init__(**kwargs)
@@ -110,7 +109,7 @@ class Legend(FloatLayout):
             self.rect = Rectangle(pos=(pos[0] + size[0] * 1.3, pos[1] + size[1] * 0.9),
                                   size=(size[0] * 0.1, size[1] * 0.1))
             self.label = Label(text=str("%.2f" % value + "% - " + name),
-                               pos=(pos[0] + size[0] * 1.3 + size[0]*0.5, pos[1] + size[1] * 0.9 - 30),
+                               pos=(pos[0] + size[0] * 1.3 + size[0] * 0.5, pos[1] + size[1] * 0.9 - 30),
                                halign='left',
                                text_size=(size[1], size[1] * 0.1))
 
@@ -203,4 +202,3 @@ class PieSlice(FloatLayout):
         radius = sqrt(pow(x_pos, 2) + pow(y_pos, 2))
         if self.slice.angle_start < angle < self.slice.angle_end:
             return radius < self.slice.size[0] / 2
-

@@ -1,3 +1,6 @@
+"""
+Creating a database using peewee orm
+"""
 from peewee import Model, SqliteDatabase
 from peewee import CharField, IntegerField, DateField, ForeignKeyField, TextField
 
