@@ -1,6 +1,6 @@
 """
 This is the source code to a simple accounting app using Kivy GUI called EL-Count.
-EL-count has been coded by me https://github.com/TheMoonHashira on github.
+EL-count has been coded by me https://github.com/Sadra-TMH on github.
 The application can be used to manage a simple company.
 The PieChart Module is from https://github.com/MrTequila/kivy-PieChart with some edits
 """
